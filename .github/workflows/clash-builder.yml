@@ -37,7 +37,7 @@ jobs:
 
         with:
           registry: ghcr.io
-          username: ventipamcy
+          username: jinnlin618@gmail.com
           password: juxxax-kahco2-bagriX
       - name: Get lowercase repo owner
         run: echo "REPO_OWNER_LC=${GITHUB_REPOSITORY_OWNER,,}" >> $GITHUB_ENV
