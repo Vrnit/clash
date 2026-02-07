@@ -37,8 +37,8 @@ jobs:
 
         with:
           registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GH_PAT }}
+          username: ventipamcy
+          password: juxxax-kahco2-bagriX
       - name: Get lowercase repo owner
         run: echo "REPO_OWNER_LC=${GITHUB_REPOSITORY_OWNER,,}" >> $GITHUB_ENV
       - name: Extract VERSION from config
